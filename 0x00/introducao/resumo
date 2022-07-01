@@ -1,0 +1,9 @@
+É uma abordagem de arquitetura para a elaboração de aplicações, onde os serviços são distribuídos e levemente acoplados.
+
+Monolítica: Todas as funções da aplicação estão concentradas em um único processo, como vantagens posso citar que é mais fácil de compreender, possuindo uma curva de aprendizado menor. Porém é menos escalável, e possui alto acoplamento. 
+
+Microsserviços: Cada serviço é desenvolvimento em separado, com suas regras de negócio próprias, sendo implementado de forma independente das demais. Como vantagens cito a possibilidade de flexibilização das tecnologias, as alterações são mais fáceis de serem colocadas em produção, além de tornar os serviços mais estáveis, por estarem independentes do restante da aplicação. Com relação a desvantagens, um sistema distribuído possui uma complexidade maior, principalmente para um desenvolvedor iniciante, pois uma aplicação que utiliza microsserviços possui uma estrutura maior, o que torna o entendimento mais demorado.
+
+Como benefícios posso citar que a arquitetura de microsserviços é fracamente acoplada, de fácil manutenção e testável, e também novas funcionalidades podem ser implantadas independentemente.
+
+Comunicação por HTTP, comunicação por mensagens e comunicação orientada a eventos.
